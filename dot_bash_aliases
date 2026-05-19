@@ -10,6 +10,9 @@ alias ltr='ls -ltr'
 alias gg='grep -irl --exclude-dir=target'
 alias hz='history | fzf'
 
+# configuration file management tool
+alias che='chezmoi'
+
 # alias to show the date
 alias da='date "+%Y-%m-%d %A %T %Z"'
 
@@ -37,6 +40,8 @@ alias .....='cd ../../../..'
 
 # cd into the old directory
 alias bd='cd "$OLDPWD"'
+
+# cd on steroids
 alias j='autojump'
 
 # Remove a directory and all files
