@@ -19,6 +19,10 @@ CLAUDE_MODER=meta-llama/llama-3.3-70b-instruct:free
 
 export VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
 
+if [ -f /ush/share/autojump/autojump.bash ]; then
+  source /ush/share/autojump/autojump.bash
+fi
+
 if [ -f ~/.git-prompt.sh ]; then
   source ~/.git-prompt.sh
 fi
