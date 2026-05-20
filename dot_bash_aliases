@@ -41,9 +41,6 @@ alias .....='cd ../../../..'
 # cd into the old directory
 alias bd='cd "$OLDPWD"'
 
-# cd on steroids
-alias j='autojump'
-
 # Remove a directory and all files
 alias rmd='/bin/rm  --recursive --force --verbose '
 
