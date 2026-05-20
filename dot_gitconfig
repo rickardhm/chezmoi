@@ -1,0 +1,11 @@
+[includeIf "gitdir:~/.local/share/chezmoi/"]
+  path = ~/develop/private/.gitconfig
+[includeIf "gitdir:~/develop/private/"]
+  path = ~/develop/private/.gitconfig
+[includeIf "gitdir:~/develop/RL/"]
+  path = ~/develop/RL/.gitconfig
+[user]
+	email = rickard.hillebrink@gmail.com
+	name = rickard hillebrink
+[init]
+	defaultBranch = main
