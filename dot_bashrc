@@ -17,7 +17,7 @@ CLAUDE_MODER=meta-llama/llama-3.3-70b-instruct:free
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
+VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
 
 if [ -f /ush/share/autojump/autojump.bash ]; then
   source /ush/share/autojump/autojump.bash
