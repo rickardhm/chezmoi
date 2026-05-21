@@ -1,0 +1,98 @@
+#!/bin/bash
+{{- if eq .chezmoi.os "linux" }}
+
+# Arch Linux — install packages via yay
+if command -v yay &>/dev/null; then
+  echo "Installing Arch packages with yay..."
+
+  packages=(
+autojump
+base
+base-devel
+blueman
+bluez
+bluez-utils
+btop
+btrfs-progs
+chezmoi
+claude-code
+claude-desktop-appimage
+code
+dolphin
+dunst
+efibootmgr
+eza
+feh
+firefox
+fyi
+fzf
+git
+grim
+grub
+gst-plugin-pipewire
+gvim
+htop
+hypridle
+hyprland
+hyprlock
+hyprpaper
+hyprshot
+intel-media-driver
+intel-ucode
+kitty
+less
+libpulse
+librewolf-bin
+libva-intel-driver
+linux-firmware
+linux-lts
+maven
+nano
+network-manager-applet
+networkmanager
+nextcloud-client
+obsidian
+otf-font-awesome
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+podman
+podman-compose
+polkit-kde-agent
+qt5-wayland
+qt6-wayland
+sddm
+slurp
+smartmontools
+sof-firmware
+stow
+sudo
+swaync
+unzip
+uwsm
+vulkan-intel
+vulkan-nouveau
+vulkan-radeon
+waybar
+wget
+wikiman
+wireplumber
+woff2-font-awesome
+wofi
+wpa_supplicant
+xdg-desktop-portal-hyprland
+xdg-utils
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+yay
+yay-debug
+zip
+zram-generator
+    # add more packages here
+  )
+
+  yay -S --noconfirm --needed "${packages[@]}"
+fi
+{{- end }}
