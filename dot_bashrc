@@ -8,12 +8,12 @@ source ~/.env
 set +o allexport
 
 ## setup for Claude code
-ANTHROPIC_BASE_URL=https://openrouter.ai/api
+export ANTHROPIC_BASE_URL=https://openrouter.ai/api
 #export ANTHROPIC_BASE_URL=http://localhost:11434/
-ANTHROPIC_AUTH_TOKEN="$OPENROUTER_API_KEY"
-ANTHROPIC_API_KEY=""
+export ANTHROPIC_AUTH_TOKEN="$OPENROUTER_API_KEY"
+export ANTHROPIC_API_KEY=""
 #export ANTHROPIC_API_KEY="ollama"
-CLAUDE_MODER=meta-llama/llama-3.3-70b-instruct:free
+export CLAUDE_MODEL=meta-llama/llama-3.3-70b-instruct:free
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
