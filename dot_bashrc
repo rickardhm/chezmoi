@@ -18,7 +18,8 @@ export CLAUDE_MODEL=meta-llama/llama-3.3-70b-instruct:free
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
+export VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
+export MULE_HOME=programs/AnypointStudio/plugins/org.mule.tooling.server.4.11.ee_7.24.0.202605061550/mule
 
 if [ -f /usr/share/autojump/autojump.bash ]; then
   source /usr/share/autojump/autojump.bash
