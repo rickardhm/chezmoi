@@ -1,7 +1,11 @@
 Hi! I am {{ .name }}, also knowna as {{ .chezmoi.group }}
 
 {{- if eq .chezmoi.hostname "trocadero" }}
-hostname is {{ .chezmoi.hostname }}
+Jag är på jobbet just nu
+{{- end }}
+
+{{- if eq .chezmoi.hostname "pommac" }}
+Jag är hemma just nu
 {{- end }}
 
 I speak:
