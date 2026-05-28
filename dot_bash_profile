@@ -2,7 +2,7 @@
 echo "loading .bash_profile..."
 
 {{- if eq .chezmoi.hostname "trocadero" }}
-  echo "host is $HOSTNAME
+  echo "host is $HOSTNAME"
 {{- end }}
 
 # Sets environment variables
