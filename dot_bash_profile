@@ -1,7 +1,7 @@
 #! /usr/bin
 echo "loading .bash_profile..."
 
-{{- if eq .chezmoi.hostname "trocadero" }}
+{{- if eq .chezmoi.hostname "work-laptop" }}
   echo "host is $HOSTNAME"
 {{- end }}
 
