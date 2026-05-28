@@ -1,0 +1,11 @@
+#! /usr/bin
+echo "loading .bash_profile..."
+
+# Sets environment variables
+set -o allexport
+source ~/.env
+set +o allexport
+
+ANTROPIC_BASE_URL=https://openrouter.ai/api
+CLAUDE_MODER=meta-llama/llama-3.3-70b-instruct:free
+
