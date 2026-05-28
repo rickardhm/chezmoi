@@ -1,6 +1,8 @@
 Hi! I am {{ .name }}, also knowna as {{ .chezmoi.group }}
 
+{{- if eq .chezmoi.hostnam }}
 hostname is {{ .chezmoi.hostname }}
+{{- end }}
 
 I speak:
 {{ range .language }}
