@@ -1,8 +1,8 @@
 #! /usr/bin
 echo "loading .bash_profile..."
 
-{{- if eq .chezmoi.hostname "work-laptop" }}
-  echo "host is $HOSTNAME"
+{{- if eq .chezmoi.hostname "trocadero" }}
+  echo "host is " {{ .chezmoi.hostname }}
 {{- end }}
 
 # Sets environment variables
