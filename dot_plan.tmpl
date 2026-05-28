@@ -1,6 +1,6 @@
 Hi! I am {{ .name }}, also knowna as {{ .chezmoi.group }}
 
-{{- if eq .chezmoi.hostnam }}
+{{- if eq .chezmoi.hostnam "trocadero" }}
 hostname is {{ .chezmoi.hostname }}
 {{- end }}
 
