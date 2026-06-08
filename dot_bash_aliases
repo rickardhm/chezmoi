@@ -92,6 +92,6 @@ alias pup='podman-compose up -d'
 alias pdown='podman-compose down -v'
 
 # fuzzy finder
-alias zz='fzf'
+alias z='fzf'
 
 alias grep='grep --color=auto'
