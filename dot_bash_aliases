@@ -32,6 +32,7 @@ alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=dow
 # Change directory aliases
 alias home='cd ~'
 alias cdw='cd $VIMWIKI_HOME'
+alias cdm='cd $MULE_HOME'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
