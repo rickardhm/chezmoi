@@ -6,10 +6,6 @@ echo "host is {{ .chezmoi.hostname }} "
 {{- end }}
 
 {{- if eq .chezmoi.hostname "pommac" }}
-echo "host is {{ .chezmoi.hostname }} "
-{{- end }}
-
-{{- if eq .chezmoi.hostname "pommac" }}
   echo "host is " {{ .chezmoi.hostname }}
 {{- end }}
 
