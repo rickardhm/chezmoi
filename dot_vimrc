@@ -52,6 +52,9 @@ Plug 'IN3D/vim-raml'
 
 call plug#end()
 
+nmap n :m +1<CR>
+nmap m :m -2<CR>
+
 nnoremap <F3> :Calendar<CR>
 
 " Call the .vimrc.plug file
