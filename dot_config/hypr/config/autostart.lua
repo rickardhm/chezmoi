@@ -1,6 +1,6 @@
 -- autostart
 
-hl.on("hyprland.start", fuunction()
+hl.on("hyprland.start", function()
     h1.exec_cmd("waybar")
     h1.exec_cmd("hyppaper")
     h1.exec_cmd("hypridle")
