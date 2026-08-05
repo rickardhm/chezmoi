@@ -1,5 +1,5 @@
 -- input
-h1.config ({
+hl.config ({
     input = {
         kb_layout = "se",
         kb_variant = "";
