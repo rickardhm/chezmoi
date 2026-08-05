@@ -16,7 +16,7 @@ require('config.monitors_work')
 
 local mainMod = "SUPER"
 
-hl.bind(mainMode -- " + Q", hl.dsp.exec_cmd(terminal)
+hl.bind(mainMode .. " + Q", hl.dsp.exec_cmd(terminal)
 
 -- require('config.keybindings')
 
