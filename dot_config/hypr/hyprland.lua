@@ -12,7 +12,7 @@ require('config.input')
 
 require
 
-('config.monitor_work')
+('config.monitors_work')
 
 -- KEYBINDINGS
 
