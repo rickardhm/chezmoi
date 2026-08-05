@@ -5,7 +5,7 @@ h1.config ({
         kb_variant = "";
         kb_model = "",
         kb_options = "",
-        kb_rules = ""
+        kb_rules = "",
 
         follow_mouse = 1,
 
