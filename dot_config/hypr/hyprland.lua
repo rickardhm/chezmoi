@@ -10,13 +10,11 @@ require('config.input')
 
 -- MONITORS
 
-require
-
-('config.monitors_work')
+require('config.monitors_work')
 
 -- KEYBINDINGS
 
-require('config.keybindings')
+-- require('config.keybindings')
 
 -- CONFIGURATIONS
 
