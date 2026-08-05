@@ -1,8 +1,6 @@
--- Set programs that you use
-
-local terminal    = "kitty",
-local fileManager = "dolphin",
-local menu        = "wofi --show",
+local terminal    = "kitty"
+local fileManager = "dolphin"
+local menu        = "wofi --show"
 
 hl.env = XCURSOR_SIZE,24
 hl.env = HYPRCURSOR_SIZE,24
