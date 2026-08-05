@@ -16,8 +16,8 @@ require
 
 -- KEYBINDINGS
 
-require('conf.keybindings')
+require('config.keybindings')
 
 -- CONFIGURATIONS
 
-require('conf.look_feel')
+require('config.look_feel')
