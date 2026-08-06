@@ -1,9 +1,11 @@
--- autostart
+---------------
+-- AUTOSTART --
+---------------
 
 hl.on("hyprland.start", function()
-    h1.exec_cmd("waybar")
-    h1.exec_cmd("hyppaper")
-    h1.exec_cmd("hypridle")
-    h1.exec_cmd("nm-applet")
-    h1.exec_cmd("swaync")
-  end)
+  hl.exec_cmd("kitty")
+  hl.exec_cmd("waybar & hyprpaper & hypridle")
+  hl.exec_cmd("swaync")
+  hl.exec_cmd("nm-applet")
+  hl.exec_cmd("nextcloud --background")
+end)

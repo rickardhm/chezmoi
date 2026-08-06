@@ -1,4 +1,7 @@
--- input
+-----------
+-- INPUT --
+-----------
+
 hl.config ({
     input = {
         kb_layout = "se",

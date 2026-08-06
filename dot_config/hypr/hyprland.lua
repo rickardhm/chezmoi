@@ -1,25 +1,19 @@
-local terminal    = "kitty"
-local fileManager = "dolphin"
-local menu        = "wofi --show"
 
-hl.env = XCURSOR_SIZE,24
-hl.env = HYPRCURSOR_SIZE,24
-
-require('config.autostart')
-require('config.input')
+hl.env("XCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
 
 -- MONITORS
 
 require('config.monitors_work')
 
--- KEYBINDINGS
+require('config.input')
 
-local mainMod = "SUPER"
-
-hl.bind(mainMode .. " + Q", hl.dsp.exec_cmd(terminal))
-
--- require('config.keybindings')
+require('config.autostart')
 
 -- CONFIGURATIONS
-
 require('config.look_feel')
+
+-- KEYBINDINGS
+
+require('config.keybindings')
+
