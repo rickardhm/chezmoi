@@ -4,7 +4,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 -- MONITORS
 
-require('config.monitors_work')
+require('config.monitors_home')
 
 require('config.input')
 
