@@ -1,6 +1,6 @@
-- Monitors
+-- Monitors
 
-- To list all available monitors (active and inactive):
+-- To list all available monitors (active and inactive):
 -- hyprctl monitors all
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
