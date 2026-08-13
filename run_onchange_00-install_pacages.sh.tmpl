@@ -101,4 +101,5 @@ zram-generator
 
   yay -S --noconfirm --needed "${packages[@]}"
 fi
+{{ else if eq .chezmoi.osRelease.id "fedora" }}
 {{- end }}

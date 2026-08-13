@@ -12,6 +12,7 @@ alias hz='history | fzf'
 
 # configuration file management tool
 alias che='chezmoi'
+alias chee='che edit'
 
 # alias to show the date
 alias da='date "+%Y-%m-%d %A %T %Z"'
