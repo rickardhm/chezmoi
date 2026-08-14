@@ -1,0 +1,13 @@
+#!/bin/bash
+
+{{ if eq .chezmoi.osRelease.id "arch" -}}
+
+cat hej
+#FILE="$HOME/.local/share/chezmoi/scripts/packages.yaml"
+
+yay -S --file=/dev/stdin <<EOF
+{{ range .packages.arch.yay -}}
+  {{ . | quote }}
+{{ end -}}
+EOF
+{{ end -}}
