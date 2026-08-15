@@ -2,12 +2,13 @@
 
 {{ if eq .chezmoi.osRelease.id "arch" -}}
 
-cat hej
-#FILE="$HOME/.local/share/chezmoi/scripts/packages.yaml"
+FILE="$HOME/.local/share/chezmoi/scripts/packages.yaml"
+--file=/dev/stdin <<EOF
 
-yay -S --file=/dev/stdin <<EOF
 {{ range .packages.arch.yay -}}
-  {{ . | quote }}
-{{ end -}}
+
+yay -S -noconfirm {{ . | quote }}
+
+{{ end }}
 EOF
-{{ end -}}
+{{ end }}
